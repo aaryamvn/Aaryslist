@@ -1,0 +1,25 @@
+{% extends "myapp/base.html" %}
+
+{% block bodyblock %}
+<div class="row mt-3">
+    {% for x,y,z in zipped %}
+    <div class="col-lg-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{ x }}</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <div class="bottom">
+                    <a href="{{ z }}" class="btn btn-primary">Open</a>
+                    <p class="price">{{ y }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-family: "Raleway",arial;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+#search {
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #292929;
+    color: white;
+    flex-basis: 100%;
+}
+
+#search:focus {
+    border: none !important;
+    outline: none !important;
+}
+
+.price {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #292929;
+    color: white;
+}
+
+.price {
+    border: none !important;
+    outline: none !important;
+}
+
+form .item {
+    flex-basis: 100%;
+    margin-right: 4px;
+    margin-top: 10px;
+}
+
+form {
+    border-bottom: 1px solid #4e4e4e;
+    padding-bottom: 10px;
+}
+
+form input[type="submit"] {
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(-45deg, rgb(84, 158, 62),rgb(0, 140, 255));
+    color: white;
+}
+
+nav {
+    background-color: rgb(53, 53, 53);
+}
+
+.card {
+    border: none;
+    margin-right: 10px;
+    background: #292929 !important;
+    height: 300px !important;
+    margin-top: 10px;
+    overflow: hidden !important;
+    position: relative;
+}
+
+.card .bottom {
+    position: absolute;
+    bottom: 3px;
+
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    
+}
