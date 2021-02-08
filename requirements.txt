@@ -1,23 +1,31 @@
 argon2-cffi==20.1.0
 asgiref @ file:///tmp/build/80754af9/asgiref_1605055780383/work
+autopep8==1.5.5
 bcrypt==3.2.0
 beautifulsoup4==4.9.3
 bs4==0.0.1
 certifi==2020.12.5
 cffi==1.14.4
 chardet==4.0.0
+dj-database-url==0.5.0
 Django @ file:///tmp/build/80754af9/django_1612212120213/work
+django-heroku==0.3.1
 Faker==5.8.0
+gunicorn==20.0.4
 idna==2.10
+lxml==4.6.2
 Pillow==8.1.0
-psycopg2 @ file:///C:/ci/psycopg2_1608147681824/work
+psycopg2 @ file:///C:/ci/psycopg2_1612298803839/work
+pycodestyle==2.6.0
 pycparser==2.20
-python-dateutil==2.8.1
+python-dateutil==1.5
 pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
 requests==2.25.1
 six==1.15.0
 soupsieve==2.1
 sqlparse @ file:///tmp/build/80754af9/sqlparse_1602184451250/work
 text-unidecode==1.3
+toml==0.10.2
 urllib3==1.26.3
+whitenoise==5.2.0
 wincertstore==0.2
